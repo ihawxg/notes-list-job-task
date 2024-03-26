@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.note-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 48rem;
+}
+
+.note-form {
+    flex: 1.5;
+    margin-right: 20px;
+}
+
+.note-list {
+    flex: 1;
+    height: 400px;
+    overflow-y: auto;
+    border: 3px solid grey;
+    padding: 2rem;
+}
+
+.note-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.note-item button {
+    margin-left: 5px;
+}
